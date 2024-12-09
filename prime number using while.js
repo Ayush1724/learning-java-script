@@ -1,12 +1,12 @@
 let a = parseInt(prompt("Enter the number"))
 let b = 1
-let cod = 0
+var cod = 0
 while(b<=a){
     if(a%b==0){
-      let cod =  cod + 1 
+      cod =  cod + 1 
     }b++
 }
-if(cod==1){
+if(cod==2){
     alert("Prime number")
 }
 else{
