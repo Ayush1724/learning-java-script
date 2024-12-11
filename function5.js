@@ -4,3 +4,4 @@ function demo(){
     return a+b
 }
 let c= demo()
+console.log(c);
